@@ -1,0 +1,19 @@
+class a
+{
+ini a,b;
+
+void add(int x, int y)
+{
+  a=x;
+b=y;
+return x+y;
+}
+
+class sandesh
+{
+psvm()
+{
+  a obj=new a();
+  int m=obj.add(4,5);
+  System.out.println(m);
+}
